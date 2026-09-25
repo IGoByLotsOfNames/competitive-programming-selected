@@ -1,6 +1,6 @@
 # Selected Competitive Programming Solutions
 
-This repository contains a small, modernized selection from my C++ competitive-programming practice. The collection supports the algorithmic foundation behind my Bronze Medal at the 2023 National Olympiad in Informatics without turning the profile into an undifferentiated archive of submissions.
+This repository contains a small, modernized selection from my C++ competitive-programming practice. The collection highlights the algorithmic foundation behind my Bronze Medal at the 2023 National Olympiad in Informatics.
 
 The solutions were rewritten from my 2023 practice files for consistent C++20 style, safer containers and clearer naming. Problem statements are not redistributed.
 
@@ -35,9 +35,8 @@ cmake --build build
 - Each file is intentionally self-contained for contest-style input and output.
 - Inputs are assumed to satisfy the original problem constraints.
 - The collection emphasizes distinct techniques rather than repository size.
-- Original problem sources and links should be added before public release when they can be verified.
+- Original problem sources and links are omitted unless they can be verified.
 
 ## Licence
 
 The implementation code is MIT licensed. Original problem statements remain the property of their respective authors and are not included.
-
