@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="446.4pt" viewBox="0 0 720 446.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 446.4
+L 720 446.4
+L 720 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 131.374512 173.125426
+Q 193.914058 158.584981 254.275629 144.550916
+" clip-path="url(#pfd33225321)" style="fill: none; stroke: #007f79; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 245.577625 142.466512
+L 254.275629 144.550916
+L 247.389304 150.258677
+z
+" clip-path="url(#pfd33225321)" style="fill: #007f79; stroke: #007f79; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 303.163 129.676202
+Q 377.524849 104.484764 449.766099 128.647045
+" clip-path="url(#pfd33225321)" style="fill: none; stroke: #007f79; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 443.447995 122.316044
+L 449.766099 128.647045
+L 440.910437 129.902928
+z
+" clip-path="url(#pfd33225321)" style="fill: #007f79; stroke: #007f79; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 452.837 147.091798
+Q 378.475151 172.283236 306.233901 148.120955
+" clip-path="url(#pfd33225321)" style="fill: none; stroke: #007f79; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 312.552005 154.451956
+L 306.233901 148.120955
+L 315.089563 146.865072
+z
+" clip-path="url(#pfd33225321)" style="fill: #007f79; stroke: #007f79; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 130.567676 186.721976
+Q 193.930891 209.638339 255.191337 231.7942
+" clip-path="url(#pfd33225321)" style="fill: none; stroke: #b66432; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 249.028668 225.3118
+L 255.191337 231.7942
+L 246.307816 232.834895
+z
+" clip-path="url(#pfd33225321)" style="fill: #b66432; stroke: #b66432; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 304.800403 241.056
+Q 377.500261 241.056 447.964052 241.056
+" clip-path="url(#pfd33225321)" style="fill: none; stroke: #b66432; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 439.964052 237.056
+L 447.964052 241.056
+L 439.964052 245.056
+z
+" clip-path="url(#pfd33225321)" style="fill: #b66432; stroke: #b66432; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 108 195.5232
+C 115.255957 195.5232 122.215705 193.73585 127.346442 190.554794
+C 132.477178 187.373737 135.36 183.058693 135.36 178.56
+C 135.36 174.061307 132.477178 169.746263 127.346442 166.565206
+C 122.215705 163.38415 115.255957 161.5968 108 161.5968
+C 100.744043 161.5968 93.784295 163.38415 88.653558 166.565206
+C 83.522822 169.746263 80.64 174.061307 80.64 178.56
+C 80.64 183.058693 83.522822 187.373737 88.653558 190.554794
+C 93.784295 193.73585 100.744043 195.5232 108 195.5232
+z
+" clip-path="url(#pfd33225321)" style="fill: #e7f5f2; stroke: #007f79; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 280.8 155.3472
+C 288.055957 155.3472 295.015705 153.55985 300.146442 150.378794
+C 305.277178 147.197737 308.16 142.882693 308.16 138.384
+C 308.16 133.885307 305.277178 129.570263 300.146442 126.389206
+C 295.015705 123.20815 288.055957 121.4208 280.8 121.4208
+C 273.544043 121.4208 266.584295 123.20815 261.453558 126.389206
+C 256.322822 129.570263 253.44 133.885307 253.44 138.384
+C 253.44 142.882693 256.322822 147.197737 261.453558 150.378794
+C 266.584295 153.55985 273.544043 155.3472 280.8 155.3472
+z
+" clip-path="url(#pfd33225321)" style="fill: #e7f5f2; stroke: #007f79; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 475.2 155.3472
+C 482.455957 155.3472 489.415705 153.55985 494.546442 150.378794
+C 499.677178 147.197737 502.56 142.882693 502.56 138.384
+C 502.56 133.885307 499.677178 129.570263 494.546442 126.389206
+C 489.415705 123.20815 482.455957 121.4208 475.2 121.4208
+C 467.944043 121.4208 460.984295 123.20815 455.853558 126.389206
+C 450.722822 129.570263 447.84 133.885307 447.84 138.384
+C 447.84 142.882693 450.722822 147.197737 455.853558 150.378794
+C 460.984295 153.55985 467.944043 155.3472 475.2 155.3472
+z
+" clip-path="url(#pfd33225321)" style="fill: #e7f5f2; stroke: #007f79; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 280.8 258.0192
+C 288.055957 258.0192 295.015705 256.23185 300.146442 253.050794
+C 305.277178 249.869737 308.16 245.554693 308.16 241.056
+C 308.16 236.557307 305.277178 232.242263 300.146442 229.061206
+C 295.015705 225.88015 288.055957 224.0928 280.8 224.0928
+C 273.544043 224.0928 266.584295 225.88015 261.453558 229.061206
+C 256.322822 232.242263 253.44 236.557307 253.44 241.056
+C 253.44 245.554693 256.322822 249.869737 261.453558 253.050794
+C 266.584295 256.23185 273.544043 258.0192 280.8 258.0192
+z
+" clip-path="url(#pfd33225321)" style="fill: #fff2e9; stroke: #b66432; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 475.2 258.0192
+C 482.455957 258.0192 489.415705 256.23185 494.546442 253.050794
+C 499.677178 249.869737 502.56 245.554693 502.56 241.056
+C 502.56 236.557307 499.677178 232.242263 494.546442 229.061206
+C 489.415705 225.88015 482.455957 224.0928 475.2 224.0928
+C 467.944043 224.0928 460.984295 225.88015 455.853558 229.061206
+C 450.722822 232.242263 447.84 236.557307 447.84 241.056
+C 447.84 245.554693 450.722822 249.869737 455.853558 253.050794
+C 460.984295 256.23185 467.944043 258.0192 475.2 258.0192
+z
+" clip-path="url(#pfd33225321)" style="fill: #fff2e9; stroke: #b66432; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 38.88 374.0832
+L 238.32 374.0832
+Q 246.96 374.0832 246.96 368.7264
+L 246.96 287.4816
+Q 246.96 282.1248 238.32 282.1248
+L 38.88 282.1248
+Q 30.24 282.1248 30.24 287.4816
+L 30.24 368.7264
+Q 30.24 374.0832 38.88 374.0832
+z
+" clip-path="url(#pfd33225321)" style="fill: #f7f9fb; stroke: #dce5ea; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 258.48 374.0832
+L 457.92 374.0832
+Q 466.56 374.0832 466.56 368.7264
+L 466.56 287.4816
+Q 466.56 282.1248 457.92 282.1248
+L 258.48 282.1248
+Q 249.84 282.1248 249.84 287.4816
+L 249.84 368.7264
+Q 249.84 374.0832 258.48 374.0832
+z
+" clip-path="url(#pfd33225321)" style="fill: #f7f9fb; stroke: #dce5ea; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 478.08 374.0832
+L 677.52 374.0832
+Q 686.16 374.0832 686.16 368.7264
+L 686.16 287.4816
+Q 686.16 282.1248 677.52 282.1248
+L 478.08 282.1248
+Q 469.44 282.1248 469.44 287.4816
+L 469.44 368.7264
+Q 469.44 374.0832 478.08 374.0832
+z
+" clip-path="url(#pfd33225321)" style="fill: #e7f5f2; stroke: #dce5ea; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 22px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #19364d" x="36" y="43.500563" transform="rotate(-0 36 43.500563)">Reach a cycle without repeating DFS</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526575" x="36" y="66.561262" transform="rotate(-0 36 66.561262)">Reverse sink elimination keeps cycle vertices and every vertex that can reach them.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #19364d" x="108" y="183.250938" transform="rotate(-0 108 183.250938)">A</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #19364d" x="280.8" y="143.074938" transform="rotate(-0 280.8 143.074938)">B</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #19364d" x="475.2" y="143.074938" transform="rotate(-0 475.2 143.074938)">C</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #19364d" x="280.8" y="245.746938" transform="rotate(-0 280.8 245.746938)">D</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #19364d" x="475.2" y="245.746938" transform="rotate(-0 475.2 245.746938)">E</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #007f79" x="108" y="218.736" transform="rotate(-0 108 218.736)">still has B</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #007f79" x="561.6" y="133.92" transform="rotate(-0 561.6 133.92)">A, B, C survive</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526575" x="561.6" y="154.008" transform="rotate(-0 561.6 154.008)">A reaches B ↔ C</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b66432" x="561.6" y="238.824" transform="rotate(-0 561.6 238.824)">D, E are removed</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526575" x="561.6" y="258.912" transform="rotate(-0 561.6 258.912)">Neither reaches a cycle</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #19364d" x="47.52" y="311.197969" transform="rotate(-0 47.52 311.197969)">1  Remove E</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #19364d" transform="translate(47.52 336.082359)">E has no outgoing edges.</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #19364d" transform="translate(47.52 351.430324)">Its predecessor D becomes a sink.</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #19364d" x="267.12" y="311.197969" transform="rotate(-0 267.12 311.197969)">2  Remove D</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #19364d" transform="translate(267.12 336.082359)">A loses the edge to D.</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #19364d" transform="translate(267.12 351.430324)">Its edge to B keeps it alive.</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #19364d" x="486.72" y="311.197969" transform="rotate(-0 486.72 311.197969)">3  Answer queries</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #19364d" transform="translate(486.72 336.082359)">Survivor → safe</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #19364d" transform="translate(486.72 351.430324)">Removed or unknown → trapped</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #007f79" x="36" y="401.76" transform="rotate(-0 36 401.76)">One graph pass: O(V + E) preprocessing  •  Expected O(1) per named query</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526575" x="36" y="423.1872" transform="rotate(-0 36 423.1872)">Survivors have a surviving successor: following successors in a finite graph must repeat a vertex.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pfd33225321">
+   <rect x="0" y="0" width="720" height="446.4"/>
+  </clipPath>
+ </defs>
+</svg>
