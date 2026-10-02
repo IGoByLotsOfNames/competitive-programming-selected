@@ -8,7 +8,7 @@ These notes connect the maintained C++ implementations to the invariants, tests 
 
 The input is a directed graph of names, followed by queries. For each name, the program answers whether **at least one path** reaches a directed cycle. `safe` and `trapped` are output labels for this property. A vertex may lead to both a cycle and a dead end and still be `safe`.
 
-![A points to a B–C cycle and to D, which points to terminal vertex E. Removing E and then D leaves A, B and C.](visuals/cycle-reachability.svg)
+![A points to a B–C cycle and to D, which points to terminal vertex E. Removing E and then D leaves A, B and C.](visuals/cycle-reachability.png)
 
 For this example, the input and output can be written as:
 
@@ -60,7 +60,7 @@ L(0,j) = L(i,0) = 0
 
 Every transition uses the previous row, plus the current row's left neighbour. Once a row is finished, older rows cannot affect a later transition. The implementation swaps two row buffers after each outer iteration and puts the shorter input in the columns.
 
-![An LCS example with older table rows faded and the final two rows highlighted, showing the two-row storage dependency.](visuals/rolling-row-lcs.svg)
+![An LCS example with older table rows faded and the final two rows highlighted, showing the two-row storage dependency.](visuals/rolling-row-lcs.png)
 
 For `ABCBDAB` and `BDCABA`, the output is `4`. The illustration includes the full table for explanation, but that full table is never allocated by the maintained program.
 
@@ -74,7 +74,7 @@ Tests use exhaustive subsequence enumeration on small strings and check both arg
 
 ## Reading the measurements
 
-![Baseline and current timings and whole-process memory across all recorded graph and LCS workloads, with all three samples shown at each workload.](visuals/benchmark-comparison.svg)
+![Baseline and current timings and whole-process memory across all recorded graph and LCS workloads, with all three samples shown at each workload.](visuals/benchmark-comparison.png)
 
 The graph plots support a specific observation: on repeated queries along a chain into a cycle, eliminating repeated traversal helps as the graph grows. The LCS plots show a large reduction in whole-process memory on the recorded square inputs. They do not establish a universal speedup for every graph or string.
 
