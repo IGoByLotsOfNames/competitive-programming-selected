@@ -1,0 +1,4 @@
+# Show the solution languages in GitHub's language summary.
+# Authored Python test and benchmark tools remain visible in the repository/diffs.
+tests/*.py linguist-detectable=false
+tools/*.py linguist-detectable=false
