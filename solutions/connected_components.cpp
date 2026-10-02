@@ -7,7 +7,7 @@ int main() {
     std::cin.tie(nullptr);
 
     int vertex_count, edge_count;
-    std::cin >> vertex_count >> edge_count;
+    if (!(std::cin >> vertex_count >> edge_count)) return 0;
     std::vector<std::vector<int>> adjacency(vertex_count);
     for (int i = 0; i < edge_count; ++i) {
         int first, second;

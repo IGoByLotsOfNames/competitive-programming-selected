@@ -10,16 +10,16 @@ int main() {
 
     int length, rule_count;
     std::string word;
-    std::cin >> length >> rule_count >> word;
-    constexpr int infinity = std::numeric_limits<int>::max() / 4;
-    std::array<std::array<int, 26>, 26> cost{};
+    if (!(std::cin >> length >> rule_count >> word)) return 0;
+    constexpr long long infinity = std::numeric_limits<long long>::max() / 4;
+    std::array<std::array<long long, 26>, 26> cost{};
     for (int from = 0; from < 26; ++from) {
         cost[from].fill(infinity);
         cost[from][from] = 0;
     }
     for (int i = 0; i < rule_count; ++i) {
         char from, to;
-        int price;
+        long long price;
         std::cin >> from >> to >> price;
         cost[from - 'a'][to - 'a'] = std::min(cost[from - 'a'][to - 'a'], price);
     }
@@ -33,7 +33,7 @@ int main() {
 
     long long answer = 0;
     for (int left = 0, right = length - 1; left < right; ++left, --right) {
-        int best = infinity;
+        long long best = infinity;
         for (int target = 0; target < 26; ++target) {
             best = std::min(best, cost[word[left] - 'a'][target] + cost[word[right] - 'a'][target]);
         }

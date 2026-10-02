@@ -39,7 +39,7 @@ int main() {
     std::cin.tie(nullptr);
 
     int vertex_count, edge_count, home, target;
-    std::cin >> vertex_count >> edge_count >> home >> target;
+    if (!(std::cin >> vertex_count >> edge_count >> home >> target)) return 0;
     std::vector<std::vector<Edge>> graph(vertex_count);
     for (int i = 0; i < edge_count; ++i) {
         int from, to, weight;

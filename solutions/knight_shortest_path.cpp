@@ -9,7 +9,7 @@ int main() {
     std::cin.tie(nullptr);
 
     int board_size;
-    std::cin >> board_size;
+    if (!(std::cin >> board_size)) return 0;
     std::pair<int, int> start, target;
     std::cin >> start.first >> start.second >> target.first >> target.second;
     int forbidden_count;
@@ -22,6 +22,10 @@ int main() {
         blocked[row][column] = true;
     }
 
+    if (blocked[start.first][start.second] || blocked[target.first][target.second]) {
+        std::cout << -1 << '\n';
+        return 0;
+    }
     if (start == target) {
         std::cout << 0 << '\n';
         return 0;
