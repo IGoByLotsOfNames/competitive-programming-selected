@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "compiler": "g++ (Rev1, Built by MSYS2 project) 12.2.0",
+  "compile_flags": "-std=c++20 -O2 -Wall -Wextra -Wpedantic",
+  "baseline_ref": "c45d1b3edc6ba8fe48281d49f9210d706af74a10",
+  "seed": 20261002,
+  "repeats": 3,
+  "timing_scope": "wall clock including process startup and stdin/stdout; input generation excluded",
+  "source_sha256": {
+    "connected_components.cpp": "256ace120301e28977162c465d5593e26a677127fc2d7bd677cea9e640296b86",
+    "dijkstra_round_trip.cpp": "4e8852795a37258320f6be6f90ea25fb1a90f302dc509afffa74e65a60d35007",
+    "directed_cycle_reachability.cpp": "f2bebc413353d3749da74a01a974a7563aa58b33d8742c7d3621775eee5b8384",
+    "knight_shortest_path.cpp": "0013e9ef6750dfa8d2e27fe70b84ab0487ad95d25736913f2713eb054a40e4fb",
+    "letter_transform_palindrome.cpp": "c48350e1051dc0cb6b7174e0d3585e30ec02377628146ef0a87ca4632e861fd1",
+    "longest_common_subsequence.cpp": "78002f1ab3e0468a50873381cc7fb380cedbba4e56952ee948ec84fe38726daa"
+  },
+  "records": [
+    {
+      "solution": "directed_cycle_reachability",
+      "version": "current",
+      "size": {
+        "vertices": 2000,
+        "edges": 2000,
+        "queries": 5000
+      },
+      "input_sha256": "ffbea37d1f7dd8d4e992c6a6eb610df183a90388820fd0bd4f52ce87031a74ad",
+      "samples": [
+        {
+          "seconds": 0.05196419986896217,
+          "peak_memory_bytes": 4890624,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "6593903c06f7b2169c8c98f35257dce7303da461c2abbd2f9d1e9b87bbf2b8f6"
+        },
+        {
+          "seconds": 0.03149439999833703,
+          "peak_memory_bytes": 4898816,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "6593903c06f7b2169c8c98f35257dce7303da461c2abbd2f9d1e9b87bbf2b8f6"
+        },
+        {
+          "seconds": 0.03361159982159734,
+          "peak_memory_bytes": 4890624,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "6593903c06f7b2169c8c98f35257dce7303da461c2abbd2f9d1e9b87bbf2b8f6"
+        }
+      ],
+      "median_seconds": 0.03361159982159734
+    },
+    {
+      "solution": "directed_cycle_reachability",
+      "version": "baseline",
+      "size": {
+        "vertices": 2000,
+        "edges": 2000,
+        "queries": 5000
+      },
+      "input_sha256": "ffbea37d1f7dd8d4e992c6a6eb610df183a90388820fd0bd4f52ce87031a74ad",
+      "samples": [
+        {
+          "seconds": 0.26688909996300936,
+          "peak_memory_bytes": 5111808,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "6593903c06f7b2169c8c98f35257dce7303da461c2abbd2f9d1e9b87bbf2b8f6"
+        },
+        {
+          "seconds": 0.23223880003206432,
+          "peak_memory_bytes": 5111808,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "6593903c06f7b2169c8c98f35257dce7303da461c2abbd2f9d1e9b87bbf2b8f6"
+        },
+        {
+          "seconds": 0.22913790005259216,
+          "peak_memory_bytes": 5107712,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "6593903c06f7b2169c8c98f35257dce7303da461c2abbd2f9d1e9b87bbf2b8f6"
+        }
+      ],
+      "median_seconds": 0.23223880003206432
+    },
+    {
+      "solution": "directed_cycle_reachability",
+      "version": "current",
+      "size": {
+        "vertices": 8000,
+        "edges": 8000,
+        "queries": 5000
+      },
+      "input_sha256": "eaffae428c1239d05c8e7e6b08003bd754ce26895ae439770bf0a0003701d5ef",
+      "samples": [
+        {
+          "seconds": 0.044538999907672405,
+          "peak_memory_bytes": 6057984,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "6593903c06f7b2169c8c98f35257dce7303da461c2abbd2f9d1e9b87bbf2b8f6"
+        },
+        {
+          "seconds": 0.043970400001853704,
+          "peak_memory_bytes": 6037504,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "6593903c06f7b2169c8c98f35257dce7303da461c2abbd2f9d1e9b87bbf2b8f6"
+        },
+        {
+          "seconds": 0.0460149000864476,
+          "peak_memory_bytes": 6062080,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "6593903c06f7b2169c8c98f35257dce7303da461c2abbd2f9d1e9b87bbf2b8f6"
+        }
+      ],
+      "median_seconds": 0.044538999907672405
+    },
+    {
+      "solution": "directed_cycle_reachability",
+      "version": "baseline",
+      "size": {
+        "vertices": 8000,
+        "edges": 8000,
+        "queries": 5000
+      },
+      "input_sha256": "eaffae428c1239d05c8e7e6b08003bd754ce26895ae439770bf0a0003701d5ef",
+      "samples": [
+        {
+          "seconds": 0.8434564999770373,
+          "peak_memory_bytes": 6660096,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "6593903c06f7b2169c8c98f35257dce7303da461c2abbd2f9d1e9b87bbf2b8f6"
+        },
+        {
+          "seconds": 0.8546372000128031,
+          "peak_memory_bytes": 6647808,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "6593903c06f7b2169c8c98f35257dce7303da461c2abbd2f9d1e9b87bbf2b8f6"
+        },
+        {
+          "seconds": 0.8605829000007361,
+          "peak_memory_bytes": 6651904,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "6593903c06f7b2169c8c98f35257dce7303da461c2abbd2f9d1e9b87bbf2b8f6"
+        }
+      ],
+      "median_seconds": 0.8546372000128031
+    },
+    {
+      "solution": "longest_common_subsequence",
+      "version": "current",
+      "size": {
+        "first_length": 1500,
+        "second_length": 1500
+      },
+      "input_sha256": "89ddaa875db38a2cfe918f80f9494a25ed66e6fe37b0cebf889293a15089a777",
+      "samples": [
+        {
+          "seconds": 0.04223600006662309,
+          "peak_memory_bytes": 4579328,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "cd3764d9a895cbd0da28889407df76a9f8d1356d6415f4b693e4d42e5c20f490"
+        },
+        {
+          "seconds": 0.03545640013180673,
+          "peak_memory_bytes": 4571136,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "cd3764d9a895cbd0da28889407df76a9f8d1356d6415f4b693e4d42e5c20f490"
+        },
+        {
+          "seconds": 0.03483989997766912,
+          "peak_memory_bytes": 4575232,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "cd3764d9a895cbd0da28889407df76a9f8d1356d6415f4b693e4d42e5c20f490"
+        }
+      ],
+      "median_seconds": 0.03545640013180673
+    },
+    {
+      "solution": "longest_common_subsequence",
+      "version": "baseline",
+      "size": {
+        "first_length": 1500,
+        "second_length": 1500
+      },
+      "input_sha256": "89ddaa875db38a2cfe918f80f9494a25ed66e6fe37b0cebf889293a15089a777",
+      "samples": [
+        {
+          "seconds": 0.10053409985266626,
+          "peak_memory_bytes": 13950976,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "cd3764d9a895cbd0da28889407df76a9f8d1356d6415f4b693e4d42e5c20f490"
+        },
+        {
+          "seconds": 0.04174440004862845,
+          "peak_memory_bytes": 13938688,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "cd3764d9a895cbd0da28889407df76a9f8d1356d6415f4b693e4d42e5c20f490"
+        },
+        {
+          "seconds": 0.04284080001525581,
+          "peak_memory_bytes": 13930496,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "cd3764d9a895cbd0da28889407df76a9f8d1356d6415f4b693e4d42e5c20f490"
+        }
+      ],
+      "median_seconds": 0.04284080001525581
+    },
+    {
+      "solution": "longest_common_subsequence",
+      "version": "current",
+      "size": {
+        "first_length": 3000,
+        "second_length": 3000
+      },
+      "input_sha256": "acfd9f4f1cf060172d000e1c040b62c3f72037add120a1bc588d661e65b40da7",
+      "samples": [
+        {
+          "seconds": 0.05645240005105734,
+          "peak_memory_bytes": 4575232,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "c3f36e0d75cd2544a6baf270a1f773e01525c20b72178debf1c1c9467d08b12c"
+        },
+        {
+          "seconds": 0.06187490001320839,
+          "peak_memory_bytes": 4608000,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "c3f36e0d75cd2544a6baf270a1f773e01525c20b72178debf1c1c9467d08b12c"
+        },
+        {
+          "seconds": 0.06222570012323558,
+          "peak_memory_bytes": 4591616,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "c3f36e0d75cd2544a6baf270a1f773e01525c20b72178debf1c1c9467d08b12c"
+        }
+      ],
+      "median_seconds": 0.06187490001320839
+    },
+    {
+      "solution": "longest_common_subsequence",
+      "version": "baseline",
+      "size": {
+        "first_length": 3000,
+        "second_length": 3000
+      },
+      "input_sha256": "acfd9f4f1cf060172d000e1c040b62c3f72037add120a1bc588d661e65b40da7",
+      "samples": [
+        {
+          "seconds": 0.09024669998325408,
+          "peak_memory_bytes": 42074112,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "c3f36e0d75cd2544a6baf270a1f773e01525c20b72178debf1c1c9467d08b12c"
+        },
+        {
+          "seconds": 0.09465539990924299,
+          "peak_memory_bytes": 42074112,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "c3f36e0d75cd2544a6baf270a1f773e01525c20b72178debf1c1c9467d08b12c"
+        },
+        {
+          "seconds": 0.09396860003471375,
+          "peak_memory_bytes": 42094592,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "c3f36e0d75cd2544a6baf270a1f773e01525c20b72178debf1c1c9467d08b12c"
+        }
+      ],
+      "median_seconds": 0.09396860003471375
+    },
+    {
+      "solution": "longest_common_subsequence",
+      "version": "current",
+      "size": {
+        "first_length": 6000,
+        "second_length": 6000
+      },
+      "input_sha256": "80c7877ac99c70ae2c7ac683981a5b75af97eb1d296b90d9c96cd91f13b692cb",
+      "samples": [
+        {
+          "seconds": 0.17443819995969534,
+          "peak_memory_bytes": 4575232,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "8859d359634f9139e042e7f769ed3e660b854ce0d77b1fe3c7bfca245ea11809"
+        },
+        {
+          "seconds": 0.21605059993453324,
+          "peak_memory_bytes": 4579328,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "8859d359634f9139e042e7f769ed3e660b854ce0d77b1fe3c7bfca245ea11809"
+        },
+        {
+          "seconds": 0.2244951999746263,
+          "peak_memory_bytes": 4550656,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "8859d359634f9139e042e7f769ed3e660b854ce0d77b1fe3c7bfca245ea11809"
+        }
+      ],
+      "median_seconds": 0.21605059993453324
+    },
+    {
+      "solution": "longest_common_subsequence",
+      "version": "baseline",
+      "size": {
+        "first_length": 6000,
+        "second_length": 6000
+      },
+      "input_sha256": "80c7877ac99c70ae2c7ac683981a5b75af97eb1d296b90d9c96cd91f13b692cb",
+      "samples": [
+        {
+          "seconds": 0.3917600999120623,
+          "peak_memory_bytes": 148815872,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "8859d359634f9139e042e7f769ed3e660b854ce0d77b1fe3c7bfca245ea11809"
+        },
+        {
+          "seconds": 0.3714363998733461,
+          "peak_memory_bytes": 148811776,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "8859d359634f9139e042e7f769ed3e660b854ce0d77b1fe3c7bfca245ea11809"
+        },
+        {
+          "seconds": 0.36169069982133806,
+          "peak_memory_bytes": 148819968,
+          "memory_method": "Windows PeakWorkingSetSize, bytes",
+          "output_sha256": "8859d359634f9139e042e7f769ed3e660b854ce0d77b1fe3c7bfca245ea11809"
+        }
+      ],
+      "median_seconds": 0.3714363998733461
+    }
+  ]
+}
