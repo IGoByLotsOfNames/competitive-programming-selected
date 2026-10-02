@@ -34,7 +34,7 @@ Input storage is additional where relevant. [Contracts and reasoning](docs/contr
 
 **Question:** can a queried vertex reach any directed cycle? A vertex need not belong to the cycle itself. The program prints `safe` when such a path exists, and `trapped` otherwise.
 
-![A directed graph with A leading to the B–C cycle and a dead-end branch D–E. Reverse sink elimination removes E, then D, while A, B and C survive.](docs/visuals/cycle-reachability.svg)
+![A directed graph with A leading to the B–C cycle and a dead-end branch D–E. Reverse sink elimination removes E, then D, while A, B and C survive.](docs/visuals/cycle-reachability.png)
 
 *A can reach both a dead end and a cycle. It must survive: the answer depends on whether a cycle-reaching path exists.*
 
@@ -48,7 +48,7 @@ The invariant gives the reason it works: a removed vertex can only lead to termi
 
 **Question:** what is the length of the longest subsequence shared by two strings? Characters can be skipped, but their order must stay the same.
 
-![LCS table for ABCBDAB and BDCABA, with the final two rows highlighted. Each cell depends on the previous row and its current-row left neighbour; only two row buffers are required.](docs/visuals/rolling-row-lcs.svg)
+![LCS table for ABCBDAB and BDCABA, with the final two rows highlighted. Each cell depends on the previous row and its current-row left neighbour; only two row buffers are required.](docs/visuals/rolling-row-lcs.png)
 
 *The full table explains the recurrence; the implementation stores only two rows. In the illustrated example, the returned length is 4.*
 
@@ -60,7 +60,7 @@ Each DP cell needs the previous row and its current-row left neighbour. Keeping 
 
 Recorded on Windows with GCC 12.2.0, `-O2`, three repetitions, against maintained baseline commit `c45d1b3`. Both versions produced identical outputs for every benchmark input.
 
-![Four benchmark panels compare current and baseline wall time and peak working set across every recorded graph and LCS workload. Individual runs appear as dots and medians as joined lines.](docs/visuals/benchmark-comparison.svg)
+![Four benchmark panels compare current and baseline wall time and peak working set across every recorded graph and LCS workload. Individual runs appear as dots and medians as joined lines.](docs/visuals/benchmark-comparison.png)
 
 *Time and memory are plotted separately. Every raw run is included; each panel has its own vertical scale. The table below selects the largest recorded input for each algorithm.*
 
